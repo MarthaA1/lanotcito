@@ -8,12 +8,15 @@ nombre .- Sólo nombre para elementos con un solo nombre
 */
 
 .body {
-    background-image: linear-gradient(45deg, #765d08 0%, #14588c 100%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(50deg, #765d08 50%, #14588c 100%);
 }
 
 #map {
-    position: absolute;
-    width: 95%;
-    height: 95%;
-    background-color: rgba(255, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 150, 250, 0.5);
 }
