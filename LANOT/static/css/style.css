@@ -1,10 +1,9 @@
-
 /*
-nombre .- Sólo nombre para elementos con un solo nombre
+"nombre" .- Sólo nombre para elementos con un solo nombre es decir, las etiquetas
 
-".nombre" .- Para elementos y usar el nombre de la clase de todos los elementos con este nombre de clase
+".nombre" .- Para elementos con el nombre de la clase definidos, para todos los elementos con este nombre de clase
 
-"#nombre" para elementos con ID y aplican los estilos para todos los elementos con este ID
+"#nombre" Para elementos con ID y aplican los estilos para todos los elementos con el mismo ID
 */
 
 .body {
@@ -18,5 +17,4 @@ nombre .- Sólo nombre para elementos con un solo nombre
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: rgba(50, 150, 250, 0.5);
 }
