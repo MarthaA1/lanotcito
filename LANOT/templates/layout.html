@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <!--En el template se configuran las caracteristicas de la página, como el nombre y el tamaño de pantalla-->
+
 <head>
     <meta charset="UTF-8">
     <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
@@ -19,6 +20,9 @@
     {% endblock %}
 
 
+    <script src="{{ url_for('static', filename='js/autenticar_gee.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/funciones_gee.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/mapa_funcion.js') }}"></script>
 
 </body>
 
