@@ -1,0 +1,19 @@
+
+/*
+nombre .- Sólo nombre para elementos con un solo nombre
+
+".nombre" .- Para elementos y usar el nombre de la clase de todos los elementos con este nombre de clase
+
+"#nombre" para elementos con ID y aplican los estilos para todos los elementos con este ID
+*/
+
+.body {
+    background-image: linear-gradient(45deg, #765d08 0%, #14588c 100%);
+}
+
+#map {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 0, 0, 0.3);
+}
