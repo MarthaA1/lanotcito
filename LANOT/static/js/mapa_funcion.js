@@ -21,7 +21,7 @@ const initialize = (mapid, token) => {
     });
     const layer = new ee.layers.ImageOverlay(tileSource);
 
-    const myLatLng = new google.maps.LatLng(-34.397, 150.644);
+    const myLatLng = new google.maps.LatLng(19.28636870993493, -99.67700801557123);
     const mapOptions = {
         center: myLatLng,
         zoom: 8,
@@ -35,3 +35,7 @@ const initialize = (mapid, token) => {
     // Add the EE layer to the map.
     map.overlayMapTypes.push(layer);
 };
+
+var initMap = function () {
+    initialize('{{ mapid }}', '{{ token }}');
+  };

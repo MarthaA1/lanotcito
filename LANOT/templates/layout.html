@@ -21,11 +21,13 @@
 
     {% endblock %}
 
-    <!-- Se integran los scripts al proyecto-->
+    <!-- Se integran los scripts al proyecto -->
     <script src="{{ url_for('static', filename='js/autenticar_gee.js') }}"></script>
     <script src="{{ url_for('static', filename='js/funciones_gee.js') }}"></script>
     <script src="{{ url_for('static', filename='js/mapa_funcion.js') }}"></script>
     <script src="{{ url_for('static', filename='js/ee_api_js.js') }}"></script>
+    <!-- Scripts gee -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5XLFtrV4IWMtEIOpWfG9RZDIYRvsW6bg&callback=initMap" async defer></script>
 
 </body>
 
