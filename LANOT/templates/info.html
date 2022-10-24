@@ -1,0 +1,39 @@
+<!--Diseño de la págian de información del portal-->
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+
+    <div class="navbar-brand">
+        <a class="navbar-item" href="{{ url_for('home') }}">GEO-connect</a>
+    </div>
+
+    <div id="navbarInfo" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="{{ url_for('home') }}">Inicio</a>
+
+            <a class="navbar-item" href="{{ url_for('about') }}">Acerca de</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container p-4">
+
+    <div class="message">
+        <h1 class="message-header">Hola mundo!</h1>
+        <article class="message is-primary">
+            <div class="message-body">
+                <p class="lead">Unidad simple de presentación, diseño de message-style, componenente para mostrar
+                    informacion de elementos.</p>
+                <hr class="my-4">
+                <p>Modal simple con divider</p>
+                <p>Esto es un renglón para probar los elementos.</p>
+                <a class="button is-danger is-light" href="#" role="button">No tocar</a>
+            </div>
+        </article>
+    </div>
+</div>
+
+{% endblock %}

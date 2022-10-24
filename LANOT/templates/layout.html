@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<!--En el template se configuran las caracteristicas de la página, como el nombre y el tamaño de pantalla-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO-connect</title>
+    <link rel="icon" type="image/png" href="{{  url_for('static', filename='img/icon.png')  }}" />
+    <!--Bulma import style-->
+    <link rel="stylesheet" href="{{  url_for('static', filename='css/bulma.min.css')  }}">
+    <!--CSS Personalizado-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body class="body">
+    {% block content %}
+
+
+    {% endblock %}
+
+    <!-- Se integran los scripts al proyecto -->
+    <script src="{{ url_for('static', filename='js/autenticar_gee.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/funciones_gee.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/mapa_funcion.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/ee_api_js.js') }}"></script>
+    <!-- Scripts gee -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5XLFtrV4IWMtEIOpWfG9RZDIYRvsW6bg&callback=initMap" async defer></script>
+
+</body>
+
+</html>
