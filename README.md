@@ -1,2 +1,5 @@
 # lanotcito
-Desarrollo de plataforma web para LANOT-UFG con integración para GEE
+# Desarrollo de plataforma web para LANOT-UFG con integración para GEE
+# ESTA APLICACION TIENE LA FINALIDAD DE MEJORAR EL RENDIMIENTO DE MI EQUIPO
+
+# 06-06-2026 SE AGREGA FUNCION DE ALGO
